@@ -1,0 +1,37 @@
+body{
+     font-family:serif;
+     background-color:darkseagreen;
+
+}
+header{
+     display:flex;
+     justify-content:space-evenly;
+     align-items: center;
+}
+
+#logo{
+     height:120px;
+     width: 120px;
+     border:3px solid darkseagreen;
+     border-radius: 50%;
+     filter: brightness(150%);
+}
+
+.custom-width{
+     width:225px;
+}
+
+header h1{
+     font-size: 50px;
+     animation:scale 10s ease-in-out infinite;
+     border:3px solid darkseagreen;
+     border-radius: 20px;
+}
+@keyframes scale {
+     0%, 100% {
+       transform: scale(0.25);
+     }
+     50% {
+       transform: scale(1.2);
+     }
+   }
